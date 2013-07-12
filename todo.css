@@ -15,6 +15,11 @@ h1, h2, h3 {
 
 label{
 	font-weight:400;
+	background:#D9EDF7;
+	display:block;
+	color:#3A87AD;
+	padding:.5em 1em;
+	margin:5px 0;
 }
 
 body{
@@ -22,13 +27,29 @@ body{
 	margin:auto;
 }
 
+input{
+	border:1px solid #D9EDF7;
+	outline: none;
+	display: block;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font:inherit;
+	font-size:1em;
+	padding:.5em 1em;
+	padding-left:2.65em;
+}
+input[type='checkbox']{
+	display:inline;
+	width:auto;
+}
 
 ul,li,ol{
 	list-style:none;
 	padding:0;
 	margin:0;
 }
-
 
 ul{
 	margin-top:1em;
